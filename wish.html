@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wishlist - Women's Boutique</title>
+</head>
+<body>
+<center>
+    <header>
+        <h1>My Wishlist - Women's Boutique</h1>
+    </header>
+
+    <section id="wishlist">
+        <h2>My Wishlist</h2>
+
+        <div>
+            <img src="dress3.jpg" alt="Dress 1" width="150" height="150">
+            <p>Dress 1 - Elegant floral print dress. Price: Rs459.99</p>
+            <label for="size1">Size:</label>
+            <select id="size1" name="size1">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <button onclick="addToCart('dress3.jpg', 'Dress 1', 'Rs459.99', 'size1')">Add to Cart</button>
+            <span>&#x2665;</span> <!-- Heart symbol -->
+        </div>
+
+        <div>
+            <img src="dress4.jpg" alt="Dress 2" width="150" height="150">
+            <p>Dress 2 - Stylish leather jacket. Price: Rs869.99</p>
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <button onclick="addToCart('dress4.jpg', 'Dress 2', 'Rs869.99', 'size2')">Add to Cart</button>
+            <span>&#x2665;</span>
+        </div>
+    </section>
+
+    <section id="back-to-shop">
+        <a href="index.html">Back to Shop</a>
+    </section>
+</center>
+</body>
+</html>

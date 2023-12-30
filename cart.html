@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Women's Clothing Cart</title>
+</head>
+<body>
+<center>
+    <h2>Your Shopping Cart</h2>
+    <img class="logo" src="cart.jpg"  width="220" height="200">
+
+    <ul>
+        <li>
+            <span>Product: Dress 1</span>
+            <label for="size1">Size:</label>
+            <select id="size1" name="size1">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <label for="quantity1">Quantity:</label>
+            <input type="number" id="quantity1" name="quantity1" value="1" min="1">
+            <span>Price: Rs459.99</span>
+        </li>
+
+        <li>
+            <span>Product: Dress 2</span>
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <label for="quantity2">Quantity:</label>
+            <input type="number" id="quantity2" name="quantity2" value="2" min="1">
+            <span>Price: Rs799.99</span>
+        </li>
+
+    </ul>
+
+    <p>Total: Rs<<459.99 * 1 + 799.99 * 2>1199.97</p>
+
+    <button>Checkout</button>
+    <p><a href="index.html">Back to Home</a></p>
+</center>
+</body>
+</html>
